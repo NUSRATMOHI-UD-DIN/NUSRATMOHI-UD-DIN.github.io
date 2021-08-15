@@ -107,7 +107,7 @@ Now that we know what the expression of our logistic regression hypothesis is, w
 ![](https://res.cloudinary.com/nusratmohiuddin/image/upload/v1629051063/samples/28_jidegv.png)
 
 
-If we minimized this function applying our new h??(x(i)) hypothesis we cannot assure that we will converge the global minimum of the cost function! As h??(x)=1/(1+e(??TX)) is not linear we might end up in a local minimum. Therefore, our new cost function will be:
+If we minimized this function applying our new hθ(x(i)) hypothesis we cannot assure that we will converge the global minimum of the cost function! As hθ(x)=1/(1+e(θTX)) is not linear we might end up in a local minimum. Therefore, our new cost function will be:
 
 
 ![](https://res.cloudinary.com/nusratmohiuddin/image/upload/v1629051063/samples/29_oco3ea.png)
