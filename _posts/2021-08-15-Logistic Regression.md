@@ -30,7 +30,7 @@ The following images show different classification examples.
 ![](https://res.cloudinary.com/nusratmohiuddin/image/upload/v1629048847/samples/2_gafyps.png)
 
 
-![](https://res.cloudinary.com/nusratmohiuddin/image/upload/v1629048844/samples/3_aea8je.png/_posts/3.png)
+![](https://res.cloudinary.com/nusratmohiuddin/image/upload/v1629048844/samples/3_aea8je.png)
 
 
 For us humans, it would be really easy to differentiate groups in each of the datasets, and we would immediately be able to draw a boundary that separated them, but, how can a machine do this? Moving onwards in this blog, we will be focusing on the example shown in the 3 figure, which represents a binary classification
