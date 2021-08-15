@@ -39,7 +39,7 @@ For us humans, it would be really easy to differentiate groups in each of the da
 ## 2 Introducing the logistic function
 The logistic function is a model of the well-known sigmoid function, and the mathematical function which represent these is the following:
 
-![4.png]({{site.baseurl}}/_posts/4.png)
+![4.png](https://res.cloudinary.com/nusratmohiuddin/image/upload/v1629048845/samples/4_ufw2tp.png)
 
 
 For the sake of curiosity, just mention that the logistic function is used to describe many real-world situations, for example, population growth. This is easily understood by looking at the normalised graph: the initial stages suffer an exponential growth, but after some time, due to the competition for certain resources (bottle neck), the growth rate decreases until it gets to a stalemate and there is no growth.
