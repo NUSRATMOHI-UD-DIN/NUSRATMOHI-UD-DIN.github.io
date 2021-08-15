@@ -47,12 +47,12 @@ For the sake of curiosity, just mention that the logistic function is used to de
 ## 3. Understanindg the sigmoid function
 ### 3.1 EXAMPLE 1: General sigmoid function
 
-![](https://joparga3.github.io/standford_logistic_regression/images/19.PNG)
+![](https://res.cloudinary.com/nusratmohiuddin/image/upload/v1629049430/samples/19_j5xbgr.png)
 
 Let’s say we decide to establish a threshold of 0.5 (just to adapt to the sigmoid function cut in the Y-axis). So:
 
 
-![]({{site.baseurl}}/https://joparga3.github.io/standford_logistic_regression/images/20.PNG)
+![](https://res.cloudinary.com/nusratmohiuddin/image/upload/v1629049429/samples/27_uhxhig.png)
 
 
 In order to achieve this:
@@ -65,7 +65,7 @@ In order to achieve this:
 
 We have calculated the θ parameters of the linear expression and have the following data:
 
-![]({{site.baseurl}}/https://joparga3.github.io/standford_logistic_regression/images/22.PNG)
+![](https://res.cloudinary.com/nusratmohiuddin/image/upload/v1629049429/samples/27_uhxhig.png))
 
 
 Using the same analysis as we did for the general sigmoid function:
