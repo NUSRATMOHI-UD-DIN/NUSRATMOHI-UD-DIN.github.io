@@ -86,11 +86,10 @@ We have calculated the θ parameters of the linear expression and have the follo
 
 Using the same analysis as we did for the general sigmoid function:
 
-
+![](https://res.cloudinary.com/nusratmohiuddin/image/upload/v1629050542/samples/26_dtmhlg.png)
 ![](https://res.cloudinary.com/nusratmohiuddin/image/upload/v1629049803/samples/25_cenfmy.png)
 
 
-![](https://res.cloudinary.com/nusratmohiuddin/image/upload/v1629049803/samples/23_dposed.png)
 
 
 
