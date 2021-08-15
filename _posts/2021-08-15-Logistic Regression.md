@@ -97,6 +97,45 @@ Using the same analysis as we did for the general sigmoid function:
 **IMPORTANT NOTE! From these 3 examples we observe that the decision boundary is not directly defined by the training dataset, but by the θ parameters**
 
 
+## 4. Cost function
+
+
+Now that we know what the expression of our logistic regression hypothesis is, we need to know how to define the cost function in order to evaluate the errors a logistic model is going to make. Recall the cost function for linear regression:
+
+
+
+![](https://res.cloudinary.com/nusratmohiuddin/image/upload/v1629051063/samples/28_jidegv.png)
+
+
+If we minimized this function applying our new h??(x(i)) hypothesis we cannot assure that we will converge the global minimum of the cost function! As h??(x)=1/(1+e(??TX)) is not linear we might end up in a local minimum. Therefore, our new cost function will be:
+
+
+![](https://res.cloudinary.com/nusratmohiuddin/image/upload/v1629051063/samples/29_oco3ea.png)
+
+
+![](https://res.cloudinary.com/nusratmohiuddin/image/upload/v1629051062/samples/30_gokqrb.png)
+
+
+![](https://res.cloudinary.com/nusratmohiuddin/image/upload/v1629051062/samples/31_izixn1.png)
+
+
+## 4.1 Simplified cost function
+
+
+Thankfully, as we are dealing with a binary classification problem and y can only be 0 or 1, then the cost function can be simplified to the following expression:
+
+
+![](https://res.cloudinary.com/nusratmohiuddin/image/upload/v1629051062/samples/32_bvj4ej.png)
+
+### 4.2 Choosing the parameters: using gradient descent
+
+
+
+The gradient descent iterative process used in logistic regression is exactly the same than the one used for linear regression. The only difference between both, is the input hypothesis. Therefore, the gradient descent algorithm is again:
+
+![](https://res.cloudinary.com/nusratmohiuddin/image/upload/v1629051062/samples/33_dquk9w.png)
+
+
 
 ## Applications of Logistic Regression
 ### 1. Credit scoring
