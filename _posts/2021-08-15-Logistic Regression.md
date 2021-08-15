@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 In this blog, I introduce an algorithm that is admirably suited for discovering the link between features and some particular outcome: **Logistic regression.**
 
