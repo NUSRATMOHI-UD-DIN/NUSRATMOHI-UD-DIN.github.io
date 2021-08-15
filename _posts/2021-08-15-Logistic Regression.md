@@ -24,7 +24,7 @@ Yes, it might work, but logistic regression is more suitable for classification 
 The following images show different classification examples.
 
 
-![linear.png]https://res.cloudinary.com/nusratmohiuddin/image/upload/v1629048511/samples/linear_fuo0jl.png
+![linear.png](https://res.cloudinary.com/nusratmohiuddin/image/upload/v1629048511/samples/linear_fuo0jl.png)
 ![linear.png]({{site.baseurl}}/_posts/linear.png)
 
 
