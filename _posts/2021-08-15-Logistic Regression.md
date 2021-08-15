@@ -81,16 +81,17 @@ Using the same analysis as we did for the general sigmoid function:
 
 We have calculated the θ parameters of the linear expression and have the following data:
 
-![](https://res.cloudinary.com/nusratmohiuddin/image/upload/v1629049429/samples/27_uhxhig.png))
+
+![](https://res.cloudinary.com/nusratmohiuddin/image/upload/v1629049803/samples/25_cenfmy.png)
 
 
 Using the same analysis as we did for the general sigmoid function:
 
+
 ![](https://res.cloudinary.com/nusratmohiuddin/image/upload/v1629050542/samples/26_dtmhlg.png)
-![](https://res.cloudinary.com/nusratmohiuddin/image/upload/v1629049803/samples/25_cenfmy.png)
 
 
-
+![](https://res.cloudinary.com/nusratmohiuddin/image/upload/v1629049429/samples/27_uhxhig.png))
 
 
 **IMPORTANT NOTE! From these 3 examples we observe that the decision boundary is not directly defined by the training dataset, but by the θ parameters**
@@ -128,6 +129,8 @@ Advantages and Disadvantages of Logistic Regression
 ## Advantages and Disadvantages of Logistic Regression
 
 ![](https://res.cloudinary.com/nusratmohiuddin/image/upload/v1629050732/samples/1_Y_zp2gQu_Hj8pHyvq-xflQ_khyw86.png)
+
+
 
 
 So this is all from my side, I tried to provide all the important information on Logistic Regression. I hope you will find something useful here. Thank you for reading till the end.
