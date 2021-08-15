@@ -65,8 +65,7 @@ In order to achieve this:
 
 We have calculated the θ parameters of the linear expression and have the following data:
 
-![](https://res.cloudinary.com/nusratmohiuddin/image/upload/v1629049429/samples/27_uhxhig.png))
-
+https://res.cloudinary.com/nusratmohiuddin/image/upload/v1629049429/samples/24_dplbhc.png
 
 Using the same analysis as we did for the general sigmoid function:
 
@@ -79,8 +78,7 @@ Using the same analysis as we did for the general sigmoid function:
 
 We have calculated the θ parameters of the linear expression and have the following data:
 
-
-![]({{site.baseurl}}/https://joparga3.github.io/standford_logistic_regression/images/25.PNG)
+![](https://res.cloudinary.com/nusratmohiuddin/image/upload/v1629049429/samples/27_uhxhig.png))
 
 
 Using the same analysis as we did for the general sigmoid function:
