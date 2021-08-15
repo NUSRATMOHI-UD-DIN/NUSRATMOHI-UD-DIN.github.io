@@ -127,7 +127,7 @@ Advantages and Disadvantages of Logistic Regression
 
 ## Advantages and Disadvantages of Logistic Regression
 
-![]({{site.baseurl}}/https://miro.medium.com/max/3600/1*Y_zp2gQu_Hj8pHyvq-xflQ.png)
+![](https://res.cloudinary.com/nusratmohiuddin/image/upload/v1629050732/samples/1_Y_zp2gQu_Hj8pHyvq-xflQ_khyw86.png)
 
 
 So this is all from my side, I tried to provide all the important information on Logistic Regression. I hope you will find something useful here. Thank you for reading till the end.
