@@ -52,25 +52,28 @@ For the sake of curiosity, just mention that the logistic function is used to de
 Let’s say we decide to establish a threshold of 0.5 (just to adapt to the sigmoid function cut in the Y-axis). So:
 
 
-![](https://res.cloudinary.com/nusratmohiuddin/image/upload/v1629049429/samples/27_uhxhig.png)
+![](https://res.cloudinary.com/nusratmohiuddin/image/upload/v1629049803/samples/20_ews8zh.png)
 
 
 In order to achieve this:
 
 
-![]({{site.baseurl}}/https://joparga3.github.io/standford_logistic_regression/images/21.PNG)
+![](https://res.cloudinary.com/nusratmohiuddin/image/upload/v1629049803/samples/21_tomjc3.png)
 
 
 ### 3.2 EXAMPLE 2: Linear boundary
 
 We have calculated the θ parameters of the linear expression and have the following data:
 
-(![](https://res.cloudinary.com/nusratmohiuddin/image/upload/v1629049429/samples/24_dplbhc.png)
+![](https://res.cloudinary.com/nusratmohiuddin/image/upload/v1629049429/samples/24_dplbhc.png)
 
 Using the same analysis as we did for the general sigmoid function:
 
 
-![]({{site.baseurl}}/https://joparga3.github.io/standford_logistic_regression/images/23.PNG)
+![](https://res.cloudinary.com/nusratmohiuddin/image/upload/v1629049803/samples/22_ixryu2.png)
+
+
+![](https://res.cloudinary.com/nusratmohiuddin/image/upload/v1629049803/samples/23_dposed.png)
 
 
 ### 3.3 EXAMPLE 3: Circular boundary
@@ -84,7 +87,11 @@ We have calculated the θ parameters of the linear expression and have the follo
 Using the same analysis as we did for the general sigmoid function:
 
 
-https://joparga3.github.io/standford_logistic_regression/images/27.PNG
+![](https://res.cloudinary.com/nusratmohiuddin/image/upload/v1629049803/samples/25_cenfmy.png)
+
+
+![](https://res.cloudinary.com/nusratmohiuddin/image/upload/v1629049803/samples/23_dposed.png)
+
 
 
 **IMPORTANT NOTE! From these 3 examples we observe that the decision boundary is not directly defined by the training dataset, but by the θ parameters**
