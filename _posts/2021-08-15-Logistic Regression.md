@@ -27,6 +27,7 @@ The following images show different classification examples.
 ![linear.png]({{site.baseurl}}/_posts/linear.png)
 
 
+
 ![2.png]({{site.baseurl}}/_posts/2.png)
 
 
