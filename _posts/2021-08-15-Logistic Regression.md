@@ -65,7 +65,7 @@ In order to achieve this:
 
 We have calculated the θ parameters of the linear expression and have the following data:
 
-https://res.cloudinary.com/nusratmohiuddin/image/upload/v1629049429/samples/24_dplbhc.png
+(![](https://res.cloudinary.com/nusratmohiuddin/image/upload/v1629049429/samples/24_dplbhc.png)
 
 Using the same analysis as we did for the general sigmoid function:
 
