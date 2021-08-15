@@ -137,7 +137,7 @@ The gradient descent iterative process used in logistic regression is exactly th
 
 
 
-## Applications of Logistic Regression
+## 5. Applications of Logistic Regression
 ### 1. Credit scoring
 ID Finance is a financial company that makes predictive models for credit scoring. They need their models to be easily interpretable. They can be asked by a regulator about a certain decision at any moment. Logistic regression is widely used in credit scoring and it shows remarkable results.
 
@@ -165,7 +165,9 @@ Speed is one of the advantages of logistic regression, and it is extremely usefu
 Advantages and Disadvantages of Logistic Regression
 
 
-## Advantages and Disadvantages of Logistic Regression
+## 6. Advantages and Disadvantages of Logistic Regression
+
+
 
 ![](https://res.cloudinary.com/nusratmohiuddin/image/upload/v1629050732/samples/1_Y_zp2gQu_Hj8pHyvq-xflQ_khyw86.png)
 
