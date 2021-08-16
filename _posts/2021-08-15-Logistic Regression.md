@@ -36,7 +36,7 @@ The following images show different classification examples.
 For us humans, it would be really easy to differentiate groups in each of the datasets, and we would immediately be able to draw a boundary that separated them, but, how can a machine do this? Moving onwards in this blog, we will be focusing on the example shown in the 3 figure, which represents a binary classification
 
 
-## 2. Introducing the logistic function
+## 2. Introducing the Logistic Function
 The logistic function is a model of the well-known sigmoid function, and the mathematical function which represent these is the following:
 
 ![4.png](https://res.cloudinary.com/nusratmohiuddin/image/upload/v1629048845/samples/4_ufw2tp.png)
