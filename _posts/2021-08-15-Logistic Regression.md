@@ -137,7 +137,7 @@ The gradient descent iterative process used in logistic regression is exactly th
 
 
 
-## 7.Multiclass logistic regression from scratch
+## 5. Multiclass logistic regression from scratch
 
 
 Multiclass logistic regression is also called multinomial logistic regression and softmax regression. It is used when we want to predict more than 2 classes. 
@@ -157,7 +157,7 @@ The weight matrix 𝑊 is ℝ𝑀×𝐶.𝑊𝑗𝑘 represents the weights for 
 We want to figure out 𝑊 and use 𝑊 to predict the class membership of any given observation X.
 
 
-## Multiclass logistic regression workflow
+## 5.1 Multiclass logistic regression workflow
 If we know 𝑋 and 𝑊 (let’s say we give 𝑊 initial values of all 0s for example), Figure 1 shows the workflow of the multiclass logistic regression forward path.
 First, we calculate the product of 𝑋 and 𝑊, here we let 𝑍=−𝑋𝑊.
 Sometimes people don’t include a negative sign here. It doesn’t matter if there is a negative sign here or not.
@@ -169,11 +169,7 @@ Third, we take the argmax for each row and find the class with the highest proba
 ![](https://res.cloudinary.com/nusratmohiuddin/image/upload/v1629092775/samples/multi-2_n34r14.png)
 
 
-                                            Multiclass logistic regression forward path
-                                     
-                                     
-                                     
- 
+                                                                  
 Below figure shows another view of the multiclass logistic regression forward path when we only look at one observation at a time:
 First, we calculate the product of 𝑋𝑖 and W, here we let 𝑍𝑖=−𝑋𝑖𝑊.
 Second, we take the softmax for this row 𝑍𝑖: 𝑃𝑖=softmax(𝑍𝑖)=𝑒𝑥𝑝(𝑍𝑖)/∑𝑒𝑥𝑝(𝑍𝑖𝑘).
@@ -183,23 +179,18 @@ Third, we take the argmax for this row 𝑃𝑖 and find the index with the high
 ![](https://res.cloudinary.com/nusratmohiuddin/image/upload/v1629093172/samples/multi-3_m4oaaa.png)
 
 
-                                            Operation on one row.
-                                            
-                                            
+                                                                              
  
-## Likelihood
+## 5.2 Likelihood
 
 
 Recall that in the problem statement that we said we are given 𝑌. So for a given observation, we know the class of this observation, which is 𝑌𝑖. The likelihood function of 𝑌𝑖 given 𝑋𝑖 and 𝑊 is the probability of observation i and class 𝑘=𝑌𝑖, which is the softmax of 𝑍𝑖,𝑘=𝑌𝑖. And the likelihood function of 𝑌 given 𝑋 and 𝑊 is the product of all the observations. Figure 3 helps us understand this process from 𝑌𝑖 trace backward to 𝑊𝑘=𝑌𝑖.
 
 
 ![](https://res.cloudinary.com/nusratmohiuddin/image/upload/v1629093316/samples/multi-5_yy2ltv.png)
- 
- 
-                                             Calculate likelihood.
+                                              
                                              
-                                             
-## Loss function
+## 5.3 Loss function
 
 
 Next, we calculate the loss function. We use the negative log-likelihood function and normalized it by the sample size. One thing to note here is that
@@ -216,10 +207,6 @@ Next, we calculate the loss function. We use the negative log-likelihood functio
 ![](https://res.cloudinary.com/nusratmohiuddin/image/upload/v1629093637/samples/multi-7_d20dck.png)
 
 
-
-                                                Matrix calculations.
-  
-  
   
 ![](https://res.cloudinary.com/nusratmohiuddin/image/upload/v1629093738/samples/multi-8_pa0vli.png)
  
@@ -257,7 +244,7 @@ Speed is one of the advantages of logistic regression, and it is extremely usefu
 Advantages and Disadvantages of Logistic Regression
 
 
-## 6. Advantages and Disadvantages of Logistic Regression
+## 7. Advantages and Disadvantages of Logistic Regression
 
 
 
