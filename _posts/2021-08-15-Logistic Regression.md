@@ -169,7 +169,9 @@ Third, we take the argmax for each row and find the class with the highest proba
 ![](https://res.cloudinary.com/nusratmohiuddin/image/upload/v1629092775/samples/multi-2_n34r14.png)
 
 
-                                     Figure 1. Multiclass logistic regression forward path
+                                     Multiclass logistic regression forward path
+                                     
+                                     
 
 ## 6. Applications of Logistic Regression
 ### 1. Credit scoring
