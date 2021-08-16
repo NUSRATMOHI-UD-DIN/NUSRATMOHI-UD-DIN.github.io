@@ -137,7 +137,18 @@ The gradient descent iterative process used in logistic regression is exactly th
 
 
 
-## 5. Applications of Logistic Regression
+## 7.Multiclass logistic regression from scratch
+
+
+Multiclass logistic regression is also called multinomial logistic regression and softmax regression. It is used when we want to predict more than 2 classes. 
+
+
+### Problem statement
+
+
+![](https://res.cloudinary.com/nusratmohiuddin/image/upload/v1629092363/samples/multi-1_nltnfn.png)
+
+## 6. Applications of Logistic Regression
 ### 1. Credit scoring
 ID Finance is a financial company that makes predictive models for credit scoring. They need their models to be easily interpretable. They can be asked by a regulator about a certain decision at any moment. Logistic regression is widely used in credit scoring and it shows remarkable results.
 
