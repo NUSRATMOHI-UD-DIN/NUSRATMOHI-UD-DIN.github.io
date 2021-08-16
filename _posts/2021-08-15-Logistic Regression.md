@@ -169,9 +169,65 @@ Third, we take the argmax for each row and find the class with the highest proba
 ![](https://res.cloudinary.com/nusratmohiuddin/image/upload/v1629092775/samples/multi-2_n34r14.png)
 
 
-                                     Multiclass logistic regression forward path
+                                            Multiclass logistic regression forward path
                                      
                                      
+                                     
+ 
+Below figure shows another view of the multiclass logistic regression forward path when we only look at one observation at a time:
+First, we calculate the product of 𝑋𝑖 and W, here we let 𝑍𝑖=−𝑋𝑖𝑊.
+Second, we take the softmax for this row 𝑍𝑖: 𝑃𝑖=softmax(𝑍𝑖)=𝑒𝑥𝑝(𝑍𝑖)/∑𝑒𝑥𝑝(𝑍𝑖𝑘).
+Third, we take the argmax for this row 𝑃𝑖 and find the index with the highest probability as 𝑌𝑖.
+
+
+![](https://res.cloudinary.com/nusratmohiuddin/image/upload/v1629093172/samples/multi-3_m4oaaa.png)
+
+
+                                            Operation on one row.
+                                            
+                                            
+ 
+## Likelihood
+
+
+Recall that in the problem statement that we said we are given 𝑌. So for a given observation, we know the class of this observation, which is 𝑌𝑖. The likelihood function of 𝑌𝑖 given 𝑋𝑖 and 𝑊 is the probability of observation i and class 𝑘=𝑌𝑖, which is the softmax of 𝑍𝑖,𝑘=𝑌𝑖. And the likelihood function of 𝑌 given 𝑋 and 𝑊 is the product of all the observations. Figure 3 helps us understand this process from 𝑌𝑖 trace backward to 𝑊𝑘=𝑌𝑖.
+
+
+![](https://res.cloudinary.com/nusratmohiuddin/image/upload/v1629093316/samples/multi-5_yy2ltv.png)
+ 
+ 
+                                             Calculate likelihood.
+                                             
+                                             
+## Loss function
+
+
+Next, we calculate the loss function. We use the negative log-likelihood function and normalized it by the sample size. One thing to note here is that
+
+
+
+![](https://res.cloudinary.com/nusratmohiuddin/image/upload/v1629093516/samples/multi-6_ebti7d.png)
+
+
+
+𝑇r means the sum of elements on the main diagonal. Below figure visualizes this calculation.
+
+
+![](https://res.cloudinary.com/nusratmohiuddin/image/upload/v1629093637/samples/multi-7_d20dck.png)
+
+
+
+                                                Matrix calculations.
+  
+  
+  
+![](https://res.cloudinary.com/nusratmohiuddin/image/upload/v1629093738/samples/multi-8_pa0vli.png)
+ 
+We often add an 𝑙2 regularization term to the loss function and try to minimize the combined function. In fact, the default of scikit-learn uses 𝑙2 penalities. 𝑙1 regularization is also very commonly used. Here we use the 𝑙2 regularization.
+
+
+![](https://res.cloudinary.com/nusratmohiuddin/image/upload/v1629093849/samples/multi-10_me7qww.png)
+ 
 
 ## 6. Applications of Logistic Regression
 ### 1. Credit scoring
