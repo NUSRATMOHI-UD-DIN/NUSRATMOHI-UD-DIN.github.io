@@ -148,6 +148,29 @@ Multiclass logistic regression is also called multinomial logistic regression an
 
 ![](https://res.cloudinary.com/nusratmohiuddin/image/upload/v1629092363/samples/multi-1_nltnfn.png)
 
+
+Let’s assume we have N people/observations, each person has M features, and they belong to C classes. We are given:
+A matrix 𝑋 is ℝ𝑁×𝑀. 𝑋𝑖𝑗 represents person i with feature j.
+A vector 𝑌 is ℝ𝑁. 𝑌𝑖represents person i belonging to class k.
+We do not know:
+The weight matrix 𝑊 is ℝ𝑀×𝐶.𝑊𝑗𝑘 represents the weights for feature j and class k.
+We want to figure out 𝑊 and use 𝑊 to predict the class membership of any given observation X.
+
+
+## Multiclass logistic regression workflow
+If we know 𝑋 and 𝑊 (let’s say we give 𝑊 initial values of all 0s for example), Figure 1 shows the workflow of the multiclass logistic regression forward path.
+First, we calculate the product of 𝑋 and 𝑊, here we let 𝑍=−𝑋𝑊.
+Sometimes people don’t include a negative sign here. It doesn’t matter if there is a negative sign here or not.
+Sometimes we would also add a bias term. For simplicity, let’s only look at the weights in this article.
+Second, we take the softmax for each row 𝑍𝑖: 𝑃𝑖=softmax(𝑍𝑖)=𝑒𝑥𝑝(𝑍𝑖)/∑𝑒𝑥𝑝(𝑍𝑖𝑘). Each row of 𝑍𝑖 should be the product of each row of 𝑋(i.e., 𝑋𝑖) and the entire matrix of 𝑊. Now each row of 𝑃 should add up to 1.
+Third, we take the argmax for each row and find the class with the highest probability.
+
+
+![](https://res.cloudinary.com/nusratmohiuddin/image/upload/v1629092775/samples/multi-2_n34r14.png)
+
+
+                                     Figure 1. Multiclass logistic regression forward path
+
 ## 6. Applications of Logistic Regression
 ### 1. Credit scoring
 ID Finance is a financial company that makes predictive models for credit scoring. They need their models to be easily interpretable. They can be asked by a regulator about a certain decision at any moment. Logistic regression is widely used in credit scoring and it shows remarkable results.
