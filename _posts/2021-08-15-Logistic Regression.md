@@ -254,3 +254,10 @@ Advantages and Disadvantages of Logistic Regression
 
 
 So this is all from my side, I tried to provide all the important information on Logistic Regression. I hope you will find something useful here. Thank you for reading till the end.
+
+
+
+# REFERENCES
+1. https://towardsdatascience.com/multiclass-logistic-regression-from-scratch-9cc0007da372
+2. https://web.stanford.edu/~jurafsky/slp3/5.pdf
+3. https://joparga3.github.io/standford_logistic_regression/
